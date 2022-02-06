@@ -1,0 +1,12 @@
+/* ===============================================  Шрифры ====================================== */
+/* =======  Lato  ========== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ====== Short Stack ================ */
+@font-face {
+    font-family: "Short Stack";
+    src: url('../FONTS/Short_Stack/ShortStack.woff2') format('woff2'), url('../FONTS/Short_Stack/ShortStack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

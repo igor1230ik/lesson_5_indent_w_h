@@ -1,0 +1,127 @@
+
+/* ===============================================  Шрифры ====================================== */
+
+@import "fonts.css";
+
+/*  =================== Обнуляющий стиль ========================== */
+@import "null.css";
+
+
+/* ================================================================================================================== */
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #424551;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.wrapper {
+    max-width: 1920px;
+    overflow: hidden;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.content {
+    max-width: 840px;
+    margin: 50px auto 0;
+    padding: 0 15px 0 15px;
+}
+
+
+/* =====HEADER======== */
+.header {
+    margin-bottom: 92px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 46px;
+    color: #1e212c;
+    line-height: 1.3;
+    text-shadow: 10px 5px 10px rgb(119, 224, 20), 10px -5px 15px #e02f10;
+    word-spacing: 20px;
+}
+.header-title-text{
+    text-decoration: line-through;
+}
+.header-title .hr {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+/* ======MAIN============ */
+
+.content-image {
+    margin-bottom: 60px;
+    width: 100%;
+    max-height: 600px;
+}
+
+
+.main-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin: 0 0 24px 0;
+    text-decoration:overline;
+}
+.main-info {
+    line-height: 1.6;
+}
+.info-item {
+    margin-bottom: 39px;
+    white-space: nowrap;
+    overflow: auto;
+    min-height: 50px;
+}
+.info-item ~ p, .main-quotation {
+    margin-bottom: 48px;
+}
+/* .main-quotation {
+    margin-bottom: 48px;
+} */
+.quotation {
+    font-family: 'Short Stack', cursive;
+    color: #1e212c;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 752px;
+    margin-left: auto;
+    text-indent: 50px;
+}
+.main-list {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+.list-text {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.list-row {
+    padding: 0 0 0 32px;
+    text-align: end;
+}
+.list-row li {
+    margin: 4px 0 0 0;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+
+.main-info-bottom {
+    line-height: 160%;
+    margin-bottom: 100px;
+    overflow: auto;
+    max-height: 200px;
+}
+
+/* =====FOOTER======= */
+
+.footer {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+    color: aqua;
+    letter-spacing: 20px;
+}

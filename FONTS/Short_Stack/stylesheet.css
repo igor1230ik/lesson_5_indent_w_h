@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Short Stack';
+    src: url('ShortStack.woff2') format('woff2'),
+        url('ShortStack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
